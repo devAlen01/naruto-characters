@@ -1,0 +1,110 @@
+.HomePage {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+    .character {
+      .image {
+        height: 250px;
+        width: 190px; /* соответствует h-64 (64 * 4 = 256px) */
+        overflow: hidden;
+        border-radius: 8px; /* соответствует rounded-xl (приблизительно 12px) */
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 15px;
+
+      img {
+        height: 100%; /* соответствует h-full */
+        width: 100%; /* соответствует w-full */
+        overflow: scroll;
+        object-fit: cover; /* соответствует object-cover */
+      }
+    }
+  }
+  .showMoreButton {
+    width: 100%;
+    background-color: rgba(117, 189, 8, 0.677);
+    height: 30px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      font-size: 23px;
+    }
+  }
+}
+
+.AkatsukiCharacters {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+    .character {
+      .image {
+        height: 250px;
+        width: 190px; /* соответствует h-64 (64 * 4 = 256px) */
+        overflow: hidden;
+        border-radius: 8px; /* соответствует rounded-xl (приблизительно 12px) */
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 15px;
+
+      img {
+        height: 100%; /* соответствует h-full */
+        width: 100%; /* соответствует w-full */
+        overflow: scroll;
+        object-fit: cover; /* соответствует object-cover */
+      }
+    }
+  }
+  .showMoreButton {
+    width: 100%;
+    background-color: rgba(117, 189, 8, 0.677);
+    height: 30px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      font-size: 23px;
+    }
+  }
+}
+
+.TailedBeasts {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+    .character {
+      .image {
+        height: 250px;
+        width: 190px; /* соответствует h-64 (64 * 4 = 256px) */
+        overflow: hidden;
+        border-radius: 8px; /* соответствует rounded-xl (приблизительно 12px) */
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 15px;
+
+      img {
+        height: 100%; /* соответствует h-full */
+        width: 100%; /* соответствует w-full */
+        overflow: scroll;
+        object-fit: cover; /* соответствует object-cover */
+      }
+    }
+  }
+}
